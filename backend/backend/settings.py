@@ -1,4 +1,4 @@
-import os
+
 """
 
 Django settings for backend project.
@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = "j-2$1+w0g(d$s+xgx9e@1_3m=6j=%u_+vz^blgz&a^_9@lyl4)"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
